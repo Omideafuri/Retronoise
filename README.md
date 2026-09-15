@@ -1,59 +1,22 @@
-# Omid Mohammadi — Portfolio
+# Retronoise
 
-> **Business, technology, design, communication.**
-> A multidisciplinary portfolio built as a precision instrument.
+Experimental portfolio interface featuring smooth motion physics with GSAP and Lenis, retro hardware styling, and Persian glass accents.
 
----
+## Overview
 
-## Design Direction
+An experimental iteration of the personal portfolio exploring physics-based smooth scrolling, tactile retro hardware visual metaphors, and Persian architectural motifs.
 
-**THE INSTRUMENT** — a website designed as a physical object.
+## Features
 
-- **Light-mode warm off-white base** derived from aged ABS plastic and paper materials
-- **Dual typeface system:** Inter (display + body) × JetBrains Mono (technical labels)
-- **Safety orange** accent for actions, **green** for status, **yellow** for warnings
-- **Sharp geometry** — zero border-radius on primary elements
-- **Modular panels, data plates, and system labels** referencing industrial hardware
+- **Inertial Smooth Scrolling**: Lenis smooth scroll engine paired with GSAP animation triggers.
+- **Tactile Material System**: Noise overlay textures and physical instrument data plates.
+- **Responsive Layout**: Fluid single-page architecture with dynamic skip-link accessibility.
 
----
+## Technology
 
-## Architecture
+- Semantic HTML5, CSS3 Custom Properties
+- JavaScript (GSAP, Lenis)
 
-```
-portfolio-website/
-├── index.html          # Single-page semantic HTML5
-├── css/
-│   ├── styles.css      # Import orchestrator
-│   ├── tokens.css      # Design tokens (colors, spacing, type, etc.)
-│   ├── reset.css       # Base reset + texture overlay
-│   ├── typography.css  # Font imports + type scale
-│   ├── layout.css      # Grid system + containers
-│   ├── components.css  # Nav, buttons, panels, badges, inputs
-│   ├── sections.css    # Section-specific styles
-│   └── responsive.css  # Breakpoints (tablet + mobile)
-├── js/
-│   └── main.js         # Nav, scrollspy, reveals, contact form
-└── assets/
-    └── images/         # Project imagery
-```
+## Status
 
-## Tech Stack
-
-- **Zero dependencies** — vanilla HTML5, CSS3, JavaScript ES6+
-- **No build tools** — serves directly via any static file server
-- **Google Fonts:** Inter + JetBrains Mono
-- **Web3Forms** for contact form submissions
-
----
-
-## Running Locally
-
-```bash
-# Python
-python -m http.server 8080
-
-# Node
-npx serve .
-```
-
-Open [http://localhost:8080](http://localhost:8080)
+**Experimental Project** — Archived motion study.
